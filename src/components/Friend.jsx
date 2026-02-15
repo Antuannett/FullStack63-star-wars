@@ -8,7 +8,6 @@ const Friend = ({friend, pos}) => {
     if (pos === 9){
         styles += " corner2";
     }
-
     return (
         <img className={styles} src={friend} alt="Friend"/>
     );
