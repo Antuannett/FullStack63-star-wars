@@ -2,11 +2,11 @@ import React from 'react';
 import NavItem from "./NavItem.jsx";
 import {navItems} from '../utils/constants.js';
 
-const Navigation = () => {
+const Navigation = ({changePage}) => {
     return (
         <nav className="fixed-top mt-2 ms-4">
             <ul className="nav gap-2">
-                {navItems.map(item => <NavItem key={item} itemTitle={item}/>)}
+                {navItems.map(item => <NavItem changePage={changePage} key={item} itemTitle={item}/>)}
             </ul>
         </nav>
     );
