@@ -9,23 +9,4 @@ import friend8 from '../assets/friend8.jpg'
 import friend9 from '../assets/friend9.jpg'
 export const friends = [friend1, friend2, friend3, friend4, friend5, friend6, friend7, friend8, friend9];
 export const navItems = ['Home', 'About me', 'Star Wars', 'Contact'];
-export const openingCrawl = `It is a dark time for the
-            Rebellion. Although the Death
-            Star has been destroyed,
-            Imperial troops have driven the
-            Rebel forces from their hidden
-            base and pursued them across
-            the galaxy.
-
-            Evading the dreaded Imperial
-            Starfleet, a group of freedom
-            fighters led by Luke Skywalker
-            has established a new secret
-            base on the remote ice world
-            of Hoth.
-
-            The evil lord Darth Vader,
-            obsessed with finding young
-            Skywalker, has dispatched
-            thousands of remote probes into
-            the far reaches of space....`
+export const baseUrl = `https://sw-info-api.herokuapp.com`
